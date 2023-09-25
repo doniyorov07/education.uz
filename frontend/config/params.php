@@ -1,0 +1,1 @@
+<?phpreturn [    'adminEmail' => 'networktechnologyuz@gmail.com',];

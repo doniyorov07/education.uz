@@ -1,0 +1,155 @@
+[10-Apr-2023 17:27:35 Asia/Tashkent] An Error occurred while handling another error:
+PDOException: SQLSTATE[28000] [1045] Access denied for user 'network_sql'@'localhost' (using password: YES) in /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php:721
+Stack trace:
+#0 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(721): PDO->__construct()
+#1 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(636): yii\db\Connection->createPdoInstance()
+#2 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#3 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#4 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#5 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#6 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#7 /home/networkt/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#8 /home/networkt/public_html/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#9 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct()
+#10 /home/networkt/public_html/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#11 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(883): yii\db\Schema->getQueryBuilder()
+#12 /home/networkt/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#13 /home/networkt/public_html/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand()
+#14 /home/networkt/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all()
+#15 /home/networkt/public_html/frontend/views/layouts/footer.php(7): yii\db\ActiveQuery->all()
+#16 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(347): require('/home/networkt/...')
+#17 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#18 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#19 /home/networkt/public_html/frontend/views/layouts/main.php(31): yii\base\View->render()
+#20 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(347): require('/home/networkt/...')
+#21 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#22 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#23 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#24 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render()
+#25 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#26 [internal function]: yii\web\ErrorAction->run()
+#27 /home/networkt/public_html/vendor/yiisoft/yii2/base/Action.php(93): call_user_func_array()
+#28 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\Action->runWithParams()
+#29 /home/networkt/public_html/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#30 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\base\Module->runAction()
+#31 /home/networkt/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#32 [internal function]: yii\base\ErrorHandler->handleException()
+#33 {main}
+
+Next yii\db\Exception: SQLSTATE[28000] [1045] Access denied for user 'network_sql'@'localhost' (using password: YES) in /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php:647
+Stack trace:
+#0 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(1066): yii\db\Connection->open()
+#1 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(1053): yii\db\Connection->getMasterPdo()
+#2 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(406): yii\db\Connection->getSlavePdo()
+#3 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(430): yii\db\mysql\QueryBuilder->supportsFractionalSeconds()
+#4 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/QueryBuilder.php(59): yii\db\mysql\QueryBuilder->defaultTimeTypeMap()
+#5 /home/networkt/public_html/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\db\mysql\QueryBuilder->init()
+#6 /home/networkt/public_html/vendor/yiisoft/yii2/db/QueryBuilder.php(116): yii\base\BaseObject->__construct()
+#7 /home/networkt/public_html/vendor/yiisoft/yii2/db/mysql/Schema.php(217): yii\db\QueryBuilder->__construct()
+#8 /home/networkt/public_html/vendor/yiisoft/yii2/db/Schema.php(247): yii\db\mysql\Schema->createQueryBuilder()
+#9 /home/networkt/public_html/vendor/yiisoft/yii2/db/Connection.php(883): yii\db\Schema->getQueryBuilder()
+#10 /home/networkt/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\Connection->getQueryBuilder()
+#11 /home/networkt/public_html/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand()
+#12 /home/networkt/public_html/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all()
+#13 /home/networkt/public_html/frontend/views/layouts/footer.php(7): yii\db\ActiveQuery->all()
+#14 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(347): require('/home/networkt/...')
+#15 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#16 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#17 /home/networkt/public_html/frontend/views/layouts/main.php(31): yii\base\View->render()
+#18 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(347): require('/home/networkt/...')
+#19 /home/networkt/public_html/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#20 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(422): yii\base\View->renderFile()
+#21 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(408): yii\base\Controller->renderContent()
+#22 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(139): yii\base\Controller->render()
+#23 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(118): yii\web\ErrorAction->renderHtmlResponse()
+#24 [internal function]: yii\web\ErrorAction->run()
+#25 /home/networkt/public_html/vendor/yiisoft/yii2/base/Action.php(93): call_user_func_array()
+#26 /home/networkt/public_html/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\Action->runWithParams()
+#27 /home/networkt/public_html/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#28 /home/networkt/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(109): yii\base\Module->runAction()
+#29 /home/networkt/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException()
+#30 [internal function]: yii\base\ErrorHandler->handleException()
+#31 {main}
+Additional Information:
+Array
+(
+    [0] => 28000
+    [1] => 1045
+    [2] => Access denied for user 'network_sql'@'localhost' (using password: YES)
+)
+
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "common/". in /home/networkt/public_html/vendor/yiisoft/yii2/base/Module.php:561
+Stack trace:
+#0 /home/networkt/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#1 /home/networkt/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#2 /home/networkt/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/networkt/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/networkt/public_html/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#1 /home/networkt/public_html/frontend/web/index.php(18): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uz;q=0.6',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_csrf-frontend=229a251cd0ca0f54c8cc1eb26a37c5e4c68868dcd00161a925c8c19460b37ce2a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22GQjS-TxVEWuvylXfsDKo3DiZQpviCs9O%22%3B%7D',
+    'HTTP_HOST' => 'networktechnology.uz',
+    'HTTP_REFERER' => 'https://networktechnology.uz/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36',
+    'HTTP_X_FORWARDED_HOST' => 'networktechnology.uz',
+    'HTTP_X_FORWARDED_PORT' => '443',
+    'HTTP_X_FORWARDED_PROTO' => 'https',
+    'HTTP_X_FORWARDED_SERVER' => 'networktechnology.uz',
+    'HTTP_X_REAL_IP' => '::ffff:92.63.204.130',
+    'HTTP_SEC_CH_UA' => '"Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"',
+    'HTTP_SEC_CH_UA_MOBILE' => '?0',
+    'HTTP_SEC_CH_UA_PLATFORM' => '"Windows"',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'REDIRECT_REDIRECT_REDIRECT_UNIQUE_ID' => 'ZDQAt7cXLp7mxJTtJipDrQAAAQ0',
+    'REDIRECT_REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_REDIRECT_UNIQUE_ID' => 'ZDQAt7cXLp7mxJTtJipDrQAAAQ0',
+    'REDIRECT_REDIRECT_HTTPS' => 'on',
+    'REDIRECT_REDIRECT_STATUS' => '200',
+    'REDIRECT_UNIQUE_ID' => 'ZDQAt7cXLp7mxJTtJipDrQAAAQ0',
+    'REDIRECT_HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'ZDQAt7cXLp7mxJTtJipDrQAAAQ0',
+    'HTTPS' => 'on',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'networktechnology.uz',
+    'SERVER_ADDR' => '162.55.134.175',
+    'SERVER_PORT' => '443',
+    'REMOTE_ADDR' => '92.63.204.130',
+    'DOCUMENT_ROOT' => '/home/networkt/public_html',
+    'REQUEST_SCHEME' => 'https',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/networkt/public_html',
+    'SERVER_ADMIN' => 'webmaster@networktechnology.uz',
+    'SCRIPT_FILENAME' => '/home/networkt/public_html/frontend/web/index.php',
+    'REMOTE_PORT' => '52198',
+    'REDIRECT_URL' => '/index.php/',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/common/',
+    'SCRIPT_NAME' => '/frontend/web/index.php',
+    'PATH_INFO' => '/',
+    'PATH_TRANSLATED' => 'redirect:/frontend/web/',
+    'PHP_SELF' => '/frontend/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1681129655.609932,
+    'REQUEST_TIME' => 1681129655,
+]

@@ -1,0 +1,1596 @@
+2022-08-27 13:41:01 [-][-][-][error][ParseError] ParseError: syntax error, unexpected single-quoted string "date", expecting "]" in D:\OpenServer\domains\edu.uz\console\migrations\m220827_094733_create_news_table.php:20
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\controllers\MigrateController.php(197): yii\console\controllers\BaseMigrateController->includeMigrationFile()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(757): yii\console\controllers\MigrateController->createMigration()
+#2 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(216): yii\console\controllers\BaseMigrateController->migrateUp()
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#4 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#5 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#6 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction()
+#7 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#8 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#9 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#10 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#11 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#12 {main}
+2022-08-27 13:40:59 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x000B0846'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x006806C2'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00CC0836'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12272'
+    'ConEmuServerPID' => '7044'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\edu.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1661596859.6493
+    'REQUEST_TIME' => 1661596859
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2022-08-27 13:47:41 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migarte/create". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#2 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#3 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migarte/create". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#3 {main}
+2022-08-27 13:47:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00080844'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0032075C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x010607D6'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '2204'
+    'ConEmuServerPID' => '11472'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\edu.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1661597260.7885
+    'REQUEST_TIME' => 1661597260
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+        1 => 'migarte/create'
+        2 => 'create_nevs_table'
+    ]
+    'argc' => 3
+]
+2022-08-28 20:33:01 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migarte". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#2 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#3 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migarte". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#3 {main}
+2022-08-28 20:33:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x013E07AE'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x009E07F0'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x035F06AC'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '1972'
+    'ConEmuServerPID' => '10796'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\edu.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1661707980.8592
+    'REQUEST_TIME' => 1661707980
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+        1 => 'migarte'
+    ]
+    'argc' => 2
+]
+2022-08-31 09:05:02 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "mmigrate". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#2 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#3 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "mmigrate". in D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 D:\OpenServer\domains\edu.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 D:\OpenServer\domains\edu.uz\yii(23): yii\base\Application->run()
+#3 {main}
+2022-08-31 09:05:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00200776'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x004F0898'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00830616'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '8520'
+    'ConEmuServerPID' => '9180'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\edu.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1661925901.4649
+    'REQUEST_TIME' => 1661925901
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\edu.uz\\yii'
+        1 => 'mmigrate'
+    ]
+    'argc' => 2
+]
+2022-10-05 19:59:32 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction()
+#4 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OpenServer\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2022-10-05 19:59:32 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPOSER_CACHE_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\composer'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00410888'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x003405D0'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x01010782'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '6160'
+    'ConEmuServerPID' => '5144'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\education.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1664989172.1558
+    'REQUEST_TIME' => 1664989172
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'add_created_at_column_to_test-result_table'
+        3 => '--fields=created_at:integer'
+    ]
+    'argc' => 4
+]
+2022-10-05 20:00:06 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(182): yii\base\Controller->runAction()
+#4 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OpenServer\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OpenServer\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2022-10-05 20:00:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ADSK_3DSMAX_x64_2020' => 'D:\\3ds Max 2020\\'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '169x32766 (169x38)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPOSER_CACHE_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\composer\\cache'
+    'COMPOSER_CAFILE' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\config\\cacert.pem'
+    'COMPOSER_HOME' => 'd:\\openserver\\modules\\php\\PHP_8.0\\..\\..\\..\\userdata\\composer'
+    'COMPUTERNAME' => 'ADMIN'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00410888'
+    'ConEmuBaseDir' => 'D:\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OpenServer\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '210422'
+    'ConEmuCfgDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x003405D0'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x01010782'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '6160'
+    'ConEmuServerPID' => '5144'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\AppData\\Local'
+    'LOGONSERVER' => '\\\\ADMIN'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OneDrive' => 'C:\\Users\\Ro\'zimurod_Doniyorov\\OneDrive'
+    'OPENSSL_CONF' => 'd:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\openserver\\modules\\conemu\\ConEmu\\Scripts;D:\\openserver\\modules\\conemu;D:\\openserver\\modules\\conemu\\ConEmu;d:\\openserver\\modules\\php\\PHP_8.0\\ext;d:\\openserver\\modules\\php\\PHP_8.0\\pear;d:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;d:\\openserver\\modules\\php\\PHP_8.0;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-5.7\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\openserver\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\openserver\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\openserver\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 76 Stepping 4, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '4c04'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m#$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\openserver\\userdata\\temp'
+    'TMP' => 'd:\\openserver\\userdata\\temp'
+    'USERDOMAIN' => 'ADMIN'
+    'USERDOMAIN_ROAMINGPROFILE' => 'ADMIN'
+    'USERNAME' => 'Ro\'zimurod_Doniyorov'
+    'USERPROFILE' => 'C:\\Users\\Ro\'zimurod_Doniyorov'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OpenServer\\domains\\education.uz\\'
+    'PHP_SELF' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OpenServer\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1664989206.4442
+    'REQUEST_TIME' => 1664989206
+    'argv' => [
+        0 => 'd:\\OpenServer\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'add_created_at_column_to_test-result_table'
+        3 => '--fields=created_at:integer'
+    ]
+    'argc' => 4
+]
+2023-04-10 13:12:26 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "migarte/create". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#3 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "migarte/create". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#3 {main}
+2023-04-10 13:12:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '191x32766 (191x42)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x001D0608'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '221218'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x01B80466'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x0251055A'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '10016'
+    'ConEmuServerPID' => '7968'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.0\\ext;d:\\ospanel\\modules\\php\\PHP_8.0\\pear;d:\\ospanel\\modules\\php\\PHP_8.0\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.0;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.0'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.0\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1681121546.9756
+    'REQUEST_TIME' => 1681121546
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migarte/create'
+        2 => 'create_test_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:04:31 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:04:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692885871.2558
+    'REQUEST_TIME' => 1692885871
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:04:50 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:04:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692885890.7152
+    'REQUEST_TIME' => 1692885890
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:05:00 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:05:00 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692885900.954
+    'REQUEST_TIME' => 1692885900
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:06:47 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:06:47 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692886007.251
+    'REQUEST_TIME' => 1692886007
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:36:57 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:36:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692887817.4941
+    'REQUEST_TIME' => 1692887817
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_table'
+    ]
+    'argc' => 3
+]
+2023-08-24 17:43:51 [-][-][-][error][yii\console\Exception] yii\console\Exception: The migration name should contain letters, digits, underscore and/or backslash characters only. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:652
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Controller.php(180): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\console\Controller->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction()
+#6 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction()
+#7 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\console\Application->handleRequest()
+#8 D:\OSPanel\domains\education.uz\yii(23): yii\base\Application->run()
+#9 {main}
+2023-08-24 17:43:51 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '173x32766 (173x46)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'LAPTOP-S23HJ7Q3'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x05F60692'
+    'ConEmuBaseDir' => 'D:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBaseDirShort' => 'D:\\OSPanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '220807'
+    'ConEmuCfgDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0037074C'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x002006C6'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '12900'
+    'ConEmuServerPID' => '14324'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'd:\\ospanel'
+    'ConEmuWorkDrive' => 'd:'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'EFC_9352' => '1'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOME' => 'd:\\ospanel'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\doniyorov.uz\\AppData\\Local'
+    'LOGONSERVER' => '\\\\LAPTOP-S23HJ7Q3'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\doniyorov.uz\\OneDrive'
+    'OnlineServices' => 'Online Services'
+    'OPENSSL_CONF' => 'd:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\ospanel\\modules\\conemu;D:\\ospanel\\modules\\conemu\\ConEmu;d:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-5.6\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHPDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHPRC' => 'd:\\ospanel\\modules\\php\\PHP_8.1'
+    'PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINARY' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_BINDIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\'
+    'PHP_INI' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\PEAR\\tests'
+    'platformcode' => 'KV'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '8c01'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PT8HOME' => 'C:\\Program Files\\Cisco Packet Tracer 8.2.0'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'RegionCode' => 'NA'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'd:\\ospanel\\userdata\\temp'
+    'TMP' => 'd:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'LAPTOP-S23HJ7Q3'
+    'USERDOMAIN_ROAMINGPROFILE' => 'LAPTOP-S23HJ7Q3'
+    'USERNAME' => 'doniyorov.uz'
+    'USERPROFILE' => 'C:\\Users\\doniyorov.uz'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'd:\\OSPanel\\domains\\education.uz\\'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_NAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'PATH_TRANSLATED' => 'd:\\OSPanel\\domains\\education.uz\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1692888231.9547
+    'REQUEST_TIME' => 1692888231
+    'argv' => [
+        0 => 'd:\\OSPanel\\domains\\education.uz\\yii'
+        1 => 'migrate/create'
+        2 => 'create+theory_question_answer_table'
+    ]
+    'argc' => 3
+]

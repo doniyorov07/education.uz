@@ -1,0 +1,1 @@
+<?php/** @var yii\web\View $this */$this->title = 'Tarmoq Texnologiyasi';\dominus77\sweetalert2\Alert::widget(['useSessionFlash' => true]);?><?= $this->render('_slider');?><?= $this->render('_school_start');?><?= $this->render('_yangiliklar');?><?= $this->render('_practica');?>
