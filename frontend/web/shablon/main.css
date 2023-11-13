@@ -1,5 +1,5 @@
 .container{
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 .comment-header{
@@ -199,6 +199,7 @@
     display: none;
   }
   @media screen and (max-width:480px) {
+
     .client_box {
       display: block;
     }

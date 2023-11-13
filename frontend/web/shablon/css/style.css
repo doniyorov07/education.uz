@@ -150,10 +150,6 @@ ul.tick li {
 	   == Header Css Start ==
 ********************************************/
 .header-wrap {
-  position: fixed;
-  z-index: 10000;
-  background: white;
-  width: 100%;
 }
 .header-wrap .logo{margin-top: 6px;}
 .header-wrap .conInfo {
@@ -167,7 +163,7 @@ ul.tick li {
 .header_info div:last-child{border:none; margin-right: 0; padding-right: 0;}
 .header_info .search a{width: 50px; height: 50px; background: #ffb607; color: #fff; border-radius: 100%; display: block; text-align: center;line-height: 50px; font-size: 16px;}
 .loginwrp{}
-.loginwrp a{text-decoration: none; background: #ffb607; padding: 10px 20px; font-size: 16px; color: #fff; border-radius: 2px; display: inline-block; font-weight: bold;}
+.loginwrp a{text-decoration: none; background: #ffb607; padding: 15px 34px; font-size: 16px; color: #fff; border-radius: 6px; display: inline-block; font-weight: bold;}
 .header-wrap .conInfo span {
   font-size: 12px;
   text-transform: uppercase;
@@ -951,7 +947,7 @@ a.slidebtn i {
 .choice-wrap {
   padding: 60px 0 70px 0;
   text-align: center;
-  background: url(../images/newsbg.jpg) no-repeat top;
+  background: url(../images/choice-bg.jpg) no-repeat top;
   background-size: cover;
 }
 .choice-wrap .title {
@@ -990,7 +986,7 @@ a.slidebtn i {
 }
 .video-wrap .title{margin-bottom: 45px;}
 .video {
-  background: url(../images/foto_video.jpg) no-repeat top;
+  background: url(../images/large_img.jpg) no-repeat top;
   background-size: cover;
   padding: 200px 0;
   border: 14px solid #fff; box-shadow: 0 0 18px rgb(0 0 0 / 12%);
@@ -2631,7 +2627,7 @@ blockquote::before {
   padding: 0 0 50px 0;
 }
 .four-zero-page h2 {
-  font-size: 300px;
+  font-size: 100px;
   color: #ff002a;
   font-weight: 800;
 }

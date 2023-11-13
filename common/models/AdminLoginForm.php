@@ -44,14 +44,13 @@ class AdminLoginForm extends Model
         if (!$this->hasErrors()) {
             $user = $this->getUser();
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, 'Incorrect username or password.');
+                $this->addError($attribute, 'Username yoki Parol xato');
+            } else if (!$user->isAdmin()) {
+                $this->addError($attribute, 'Sizga tizimga kirishga ruxsat yo\'q');
             }
         }
-        if ($user != null && !$user->isAdmin())
-        {
-            $this->addError($attribute, 'Sizga admin panelga ruxsat yo\'q');
-        }
     }
+
     /**
      * Logs in a user using the provided username and password.
      *
@@ -60,9 +59,11 @@ class AdminLoginForm extends Model
     public function login()
     {
         if ($this->validate()) {
-            return Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0);
+            $user = $this->getUser();
+            if ($user && $user->role === 'admin') {
+                return Yii::$app->user->login($user, $this->rememberMe ? 3600 * 24 * 30 : 0);
+            }
         }
-
         return false;
     }
 

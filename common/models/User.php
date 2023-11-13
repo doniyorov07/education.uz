@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\base\InvalidConfigException;
 use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
@@ -24,6 +25,9 @@ use yii\base\Security;
  * @property integer $updated_at
  * @property string $password write-only password
  * @property string $role
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $group
  */
 class User extends ActiveRecord implements IdentityInterface
 {
@@ -58,9 +62,18 @@ class User extends ActiveRecord implements IdentityInterface
         return [
             ['status', 'default', 'value' => self::STATUS_INACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_INACTIVE, self::STATUS_DELETED]],
+            [['last_name', 'first_name'], 'required'],
         ];
     }
 
+    public function attributeLabels()
+    {
+        return [
+            'last_name' => 'Familiya',
+            'first_name' => 'Ism',
+            'group' => 'Guruh',
+        ];
+    }
     /**
      * {@inheritdoc}
      */
@@ -222,4 +235,15 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return $this->role == self::ROLE_USER;
     }
+
+    public function getUserGroups()
+    {
+        return $this->hasMany(StudentGroup::className(), ['student_id' => 'id']);
+    }
+
+    public function getTaskTable()
+    {
+        return $this->hasMany(TaskTable::className(), ['student_id' => 'id']);
+    }
+
 }

@@ -10,8 +10,7 @@ use kartik\switchinput\SwitchInput;
 use mihaildev\ckeditor\CKEditor;
 
 use kartik\select2\Select2;
-use kartik\popover\PopoverX;
-//use yii\bootstrap5\Modal;
+
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Nevs */
