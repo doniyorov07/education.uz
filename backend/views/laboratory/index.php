@@ -42,7 +42,11 @@ $foto = Laboratory::find()->all();
                         ],
                     );
                 },
-            ],   
+            ],
+            [
+                'attribute' => 'views_count',
+                'label' => 'Ko\'rishlar soni'
+            ],
             'date',
             //'title',
             'file',

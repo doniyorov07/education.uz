@@ -28133,3 +28133,2820 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1698943927.6805
     'REQUEST_TIME' => 1698943927
 ]
+2023-11-18 14:57:09 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-18 14:57:09 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'gfaeeqetrh88fmag6q2jpft9g8m93us9'
+    '_csrf-frontend' => '9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=gfaeeqetrh88fmag6q2jpft9g8m93us9; _csrf-frontend=9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '55138'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700308629.086
+    'REQUEST_TIME' => 1700308629
+]
+2023-11-18 15:01:33 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-18 15:01:33 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'gfaeeqetrh88fmag6q2jpft9g8m93us9'
+    '_csrf-frontend' => '9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=gfaeeqetrh88fmag6q2jpft9g8m93us9; _csrf-frontend=9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '55361'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700308893.8409
+    'REQUEST_TIME' => 1700308893
+]
+2023-11-18 15:21:29 [127.0.0.1][44][ugrau7t2q5b8i4hofbj56orub0vanvrq][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Tasdiqlash elektron pochta belgisi noto‘g‘ri. in D:\OSPanel\domains\education.uz\frontend\controllers\SiteController.php:154
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionVerifyEmail()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2023-11-18 15:21:29 [127.0.0.1][44][ugrau7t2q5b8i4hofbj56orub0vanvrq][info][application] $_GET = [
+    'token' => 'TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'ugrau7t2q5b8i4hofbj56orub0vanvrq'
+    '_csrf-frontend' => '489b18d62c09c685a236e125dfa018f85f620dd4862bd299e4fd040b095cc89ca:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"qdCdOJqzJp5vsO03DXJ96PDFxLqnvBTu\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    '__id' => 44
+    '__authKey' => 'EEYQm-6o87TLtbeK-eO_bwhdoQ4NBWiT'
+    '__expire' => 1700313689
+    'success' => 'Emailingiz tasdiqlandi'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-frontend=ugrau7t2q5b8i4hofbj56orub0vanvrq; _csrf-frontend=489b18d62c09c685a236e125dfa018f85f620dd4862bd299e4fd040b095cc89ca%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22qdCdOJqzJp5vsO03DXJ96PDFxLqnvBTu%22%3B%7D'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '55917'
+    'REDIRECT_URL' => '/index.php/'
+    'REDIRECT_QUERY_STRING' => 'token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'REQUEST_URI' => '/site/verify-email?token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700310089.3115
+    'REQUEST_TIME' => 1700310089
+]
+2023-11-18 15:23:33 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Tasdiqlash elektron pochta belgisi noto‘g‘ri. in D:\OSPanel\domains\education.uz\frontend\controllers\SiteController.php:154
+Stack trace:
+#0 [internal function]: frontend\controllers\SiteController->actionVerifyEmail()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2023-11-18 15:23:33 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][info][application] $_GET = [
+    'token' => 'TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'gfaeeqetrh88fmag6q2jpft9g8m93us9'
+    '_csrf-frontend' => '9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=gfaeeqetrh88fmag6q2jpft9g8m93us9; _csrf-frontend=9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '55989'
+    'REDIRECT_URL' => '/index.php/'
+    'REDIRECT_QUERY_STRING' => 'token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'REQUEST_URI' => '/site/verify-email?token=TN769r2oqtSirbXYxxE8xPF7NzriMWJl_1700308890'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700310213.7445
+    'REQUEST_TIME' => 1700310213
+]
+2023-11-18 15:49:57 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-18 15:49:57 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'gfaeeqetrh88fmag6q2jpft9g8m93us9'
+    '_csrf-frontend' => '9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=gfaeeqetrh88fmag6q2jpft9g8m93us9; _csrf-frontend=9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '56757'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700311797.6696
+    'REQUEST_TIME' => 1700311797
+]
+2023-11-18 16:20:05 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-18 16:20:05 [127.0.0.1][-][gfaeeqetrh88fmag6q2jpft9g8m93us9][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'gfaeeqetrh88fmag6q2jpft9g8m93us9'
+    '_csrf-frontend' => '9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=gfaeeqetrh88fmag6q2jpft9g8m93us9; _csrf-frontend=9bb9fc5a9fc7bbcc58b36a2fd8526c3b713ef370a83b92fc49cc1a1eb9c74a10a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22MMSqwBEvzjSeaIVRKqrlgh3tqxNy-Q2X%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '58870'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1700313605.038
+    'REQUEST_TIME' => 1700313605
+]
+2023-11-27 07:13:49 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:13:49 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '63885'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058429.5569
+    'REQUEST_TIME' => 1701058429
+]
+2023-11-27 07:17:44 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:17:44 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50277'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058664.4644
+    'REQUEST_TIME' => 1701058664
+]
+2023-11-27 07:17:58 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:17:58 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50294'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058678.2883
+    'REQUEST_TIME' => 1701058678
+]
+2023-11-27 07:19:00 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:19:00 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50366'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058740.2212
+    'REQUEST_TIME' => 1701058740
+]
+2023-11-27 07:19:04 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:19:04 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50376'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058744.0547
+    'REQUEST_TIME' => 1701058744
+]
+2023-11-27 07:22:51 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][ParseError] ParseError: syntax error, unexpected token ";", expecting "function" or "const" in D:\OSPanel\domains\education.uz\frontend\controllers\TheoryController.php:110
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2023-11-27 07:22:51 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://education.uz/laboratory/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50493'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/theory/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058971.5786
+    'REQUEST_TIME' => 1701058971
+]
+2023-11-27 07:22:57 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][ParseError] ParseError: syntax error, unexpected token ";", expecting "function" or "const" in D:\OSPanel\domains\education.uz\frontend\controllers\TheoryController.php:110
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2023-11-27 07:22:57 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50506'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/theory/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058977.4377
+    'REQUEST_TIME' => 1701058977
+]
+2023-11-27 07:23:04 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:23:04 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50515'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058984.6164
+    'REQUEST_TIME' => 1701058984
+]
+2023-11-27 07:23:05 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][ParseError] ParseError: syntax error, unexpected token ";", expecting "function" or "const" in D:\OSPanel\domains\education.uz\frontend\controllers\TheoryController.php:110
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#4 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2023-11-27 07:23:05 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_REFERER' => 'http://education.uz/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50518'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/theory/index'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701058985.8007
+    'REQUEST_TIME' => 1701058985
+]
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/popper.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50664'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059295.251
+    'REQUEST_TIME' => 1701059295
+]
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/bootstrap.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50663'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059295.25
+    'REQUEST_TIME' => 1701059295
+]
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/css/bootstrap.min.css.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:28:15 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50666'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059295.2916
+    'REQUEST_TIME' => 1701059295
+]
+2023-11-27 07:31:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:31:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50738'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059502.8725
+    'REQUEST_TIME' => 1701059502
+]
+2023-11-27 07:31:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:31:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50753'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059513.3153
+    'REQUEST_TIME' => 1701059513
+]
+2023-11-27 07:36:08 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:36:08 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50809'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059768.7054
+    'REQUEST_TIME' => 1701059768
+]
+2023-11-27 07:37:39 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/images/large_img.jpg". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:37:39 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://education.uz/shablon/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50836'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/images/large_img.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059859.136
+    'REQUEST_TIME' => 1701059859
+]
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/bootstrap.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50861'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059897.2759
+    'REQUEST_TIME' => 1701059897
+]
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/popper.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50862'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059897.2759
+    'REQUEST_TIME' => 1701059897
+]
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/css/bootstrap.min.css.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:17 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50864'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059897.3319
+    'REQUEST_TIME' => 1701059897
+]
+2023-11-27 07:38:40 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/css/bootstrap.min.css.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:40 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50883'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059920.4903
+    'REQUEST_TIME' => 1701059920
+]
+2023-11-27 07:38:41 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/css/bootstrap.min.css.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:41 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50892'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059921.8059
+    'REQUEST_TIME' => 1701059921
+]
+2023-11-27 07:38:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/popper.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50893'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059922.0596
+    'REQUEST_TIME' => 1701059922
+]
+2023-11-27 07:38:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/bootstrap.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:42 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50891'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059922.0596
+    'REQUEST_TIME' => 1701059922
+]
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/css/bootstrap.min.css.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50911'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/css/bootstrap.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059933.2571
+    'REQUEST_TIME' => 1701059933
+]
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/bootstrap.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50905'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/bootstrap.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059933.5127
+    'REQUEST_TIME' => 1701059933
+]
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/js/popper.min.js.map". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:38:53 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50910'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/js/popper.min.js.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701059933.5242
+    'REQUEST_TIME' => 1701059933
+]
+2023-11-27 07:41:31 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:41:31 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_SSL_SERVER_S_DN_CN' => 'localhost'
+    'REDIRECT_SSL_SERVER_I_DN_CN' => 'ospanel'
+    'REDIRECT_SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'REDIRECT_SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'REDIRECT_SSL_PROTOCOL' => 'TLSv1.3'
+    'REDIRECT_SSL_SECURE_RENEG' => 'false'
+    'REDIRECT_SSL_COMPRESS_METHOD' => 'NULL'
+    'REDIRECT_SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'REDIRECT_SSL_CIPHER_EXPORT' => 'false'
+    'REDIRECT_SSL_CIPHER_USEKEYSIZE' => '256'
+    'REDIRECT_SSL_CIPHER_ALGKEYSIZE' => '256'
+    'REDIRECT_SSL_CLIENT_VERIFY' => 'NONE'
+    'REDIRECT_SSL_SERVER_M_VERSION' => '1'
+    'REDIRECT_SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'REDIRECT_SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'REDIRECT_SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'REDIRECT_SSL_SERVER_S_DN' => 'CN=localhost'
+    'REDIRECT_SSL_SERVER_I_DN' => 'CN=ospanel'
+    'REDIRECT_SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'REDIRECT_SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'REDIRECT_SSL_SESSION_ID' => 'a63c434fa331e3b0243d360bccb9679b1da6669d3693e52878004f2d74bebd8f'
+    'REDIRECT_SSL_SESSION_RESUMED' => 'Initial'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'education.uz'
+    'SSL_SERVER_S_DN_CN' => 'localhost'
+    'SSL_SERVER_I_DN_CN' => 'ospanel'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'SSL_PROTOCOL' => 'TLSv1.3'
+    'SSL_SECURE_RENEG' => 'false'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '256'
+    'SSL_CIPHER_ALGKEYSIZE' => '256'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '1'
+    'SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'SSL_SERVER_S_DN' => 'CN=localhost'
+    'SSL_SERVER_I_DN' => 'CN=ospanel'
+    'SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'SSL_SESSION_ID' => 'a63c434fa331e3b0243d360bccb9679b1da6669d3693e52878004f2d74bebd8f'
+    'SSL_SESSION_RESUMED' => 'Initial'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'https://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '50996'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701060091.5262
+    'REQUEST_TIME' => 1701060091
+]
+2023-11-27 07:46:09 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/images/large_img.jpg". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 07:46:09 [127.0.0.1][-][80nap3t1j3nfb2av0ubh5v5ki4aopmhm][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '80nap3t1j3nfb2av0ubh5v5ki4aopmhm'
+    '_csrf-frontend' => '75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ\";}'
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_SSL_SERVER_S_DN_CN' => 'localhost'
+    'REDIRECT_SSL_SERVER_I_DN_CN' => 'ospanel'
+    'REDIRECT_SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'REDIRECT_SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'REDIRECT_SSL_PROTOCOL' => 'TLSv1.3'
+    'REDIRECT_SSL_SECURE_RENEG' => 'false'
+    'REDIRECT_SSL_COMPRESS_METHOD' => 'NULL'
+    'REDIRECT_SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'REDIRECT_SSL_CIPHER_EXPORT' => 'false'
+    'REDIRECT_SSL_CIPHER_USEKEYSIZE' => '256'
+    'REDIRECT_SSL_CIPHER_ALGKEYSIZE' => '256'
+    'REDIRECT_SSL_CLIENT_VERIFY' => 'NONE'
+    'REDIRECT_SSL_SERVER_M_VERSION' => '1'
+    'REDIRECT_SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'REDIRECT_SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'REDIRECT_SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'REDIRECT_SSL_SERVER_S_DN' => 'CN=localhost'
+    'REDIRECT_SSL_SERVER_I_DN' => 'CN=ospanel'
+    'REDIRECT_SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'REDIRECT_SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'REDIRECT_SSL_SESSION_ID' => '57885cfd7e0b658d520fb0b10632b427d11ba58ae3ac40dec4d5977b504e8576'
+    'REDIRECT_SSL_SESSION_RESUMED' => 'Initial'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'education.uz'
+    'SSL_SERVER_S_DN_CN' => 'localhost'
+    'SSL_SERVER_I_DN_CN' => 'ospanel'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'SSL_PROTOCOL' => 'TLSv1.3'
+    'SSL_SECURE_RENEG' => 'false'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '256'
+    'SSL_CIPHER_ALGKEYSIZE' => '256'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '1'
+    'SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'SSL_SERVER_S_DN' => 'CN=localhost'
+    'SSL_SERVER_I_DN' => 'CN=ospanel'
+    'SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'SSL_SESSION_ID' => '57885cfd7e0b658d520fb0b10632b427d11ba58ae3ac40dec4d5977b504e8576'
+    'SSL_SESSION_RESUMED' => 'Initial'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'https://education.uz/shablon/css/style.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=80nap3t1j3nfb2av0ubh5v5ki4aopmhm; _csrf-frontend=75c56e13c1d48b3295da32a09a352ca248ad9f789ec59ca0f3252d1e7664c52ba%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Pif-dgXQ2HvserBVsd6wu7VV23Wx6xOQ%22%3B%7D; advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '51162'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/images/large_img.jpg'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701060369.2372
+    'REQUEST_TIME' => 1701060369
+]
+2023-11-27 08:07:03 [127.0.0.1][41][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: D:\OSPanel\domains\education.uz\frontend/messages/uz-UZ/app.php Fallback file does not exist as well: D:\OSPanel\domains\education.uz\frontend/messages/uz/app.php
+2023-11-27 08:07:03 [127.0.0.1][41][-][info][application] $_GET = [
+    'id' => '10'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+    'advanced-frontend' => 'f3lsh9gft5st9tbbtka2js5ssqvuhl7v'
+    '_csrf-frontend' => '9ef303343f64e2bd99c1f07dad35db698f8e7d79c8e9d3bce0dcbd24016a29a9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"csA2D59DpL9k8kpgyQOtdms53lLZjBjC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 41
+    '__authKey' => 'Q0L1Y8TBaINB2raVNWgq5E6qdyPrulcN'
+    '__expire' => 1701065223
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_SSL_SERVER_S_DN_CN' => 'localhost'
+    'REDIRECT_SSL_SERVER_I_DN_CN' => 'ospanel'
+    'REDIRECT_SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'REDIRECT_SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'REDIRECT_SSL_PROTOCOL' => 'TLSv1.3'
+    'REDIRECT_SSL_SECURE_RENEG' => 'false'
+    'REDIRECT_SSL_COMPRESS_METHOD' => 'NULL'
+    'REDIRECT_SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'REDIRECT_SSL_CIPHER_EXPORT' => 'false'
+    'REDIRECT_SSL_CIPHER_USEKEYSIZE' => '256'
+    'REDIRECT_SSL_CIPHER_ALGKEYSIZE' => '256'
+    'REDIRECT_SSL_CLIENT_VERIFY' => 'NONE'
+    'REDIRECT_SSL_SERVER_M_VERSION' => '1'
+    'REDIRECT_SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'REDIRECT_SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'REDIRECT_SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'REDIRECT_SSL_SERVER_S_DN' => 'CN=localhost'
+    'REDIRECT_SSL_SERVER_I_DN' => 'CN=ospanel'
+    'REDIRECT_SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'REDIRECT_SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'REDIRECT_SSL_SESSION_ID' => '5ce5e23110eaaa8d504bcb9d203372d40d6eb4fb744f54172848be29ef01969e'
+    'REDIRECT_SSL_SESSION_RESUMED' => 'Initial'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'education.uz'
+    'SSL_SERVER_S_DN_CN' => 'localhost'
+    'SSL_SERVER_I_DN_CN' => 'ospanel'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'SSL_PROTOCOL' => 'TLSv1.3'
+    'SSL_SECURE_RENEG' => 'false'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '256'
+    'SSL_CIPHER_ALGKEYSIZE' => '256'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '1'
+    'SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'SSL_SERVER_S_DN' => 'CN=localhost'
+    'SSL_SERVER_I_DN' => 'CN=ospanel'
+    'SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'SSL_SESSION_ID' => '5ce5e23110eaaa8d504bcb9d203372d40d6eb4fb744f54172848be29ef01969e'
+    'SSL_SESSION_RESUMED' => 'Initial'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'https://education.uz/task/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D; advanced-frontend=f3lsh9gft5st9tbbtka2js5ssqvuhl7v; _csrf-frontend=9ef303343f64e2bd99c1f07dad35db698f8e7d79c8e9d3bce0dcbd24016a29a9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22csA2D59DpL9k8kpgyQOtdms53lLZjBjC%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '51888'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/task-table/10'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701061623.6632
+    'REQUEST_TIME' => 1701061623
+]
+2023-11-27 08:07:13 [127.0.0.1][41][f3lsh9gft5st9tbbtka2js5ssqvuhl7v][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "shablon/rs-plugin/assets/loader.gif". in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OSPanel\domains\education.uz\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OSPanel\domains\education.uz\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2023-11-27 08:07:13 [127.0.0.1][41][f3lsh9gft5st9tbbtka2js5ssqvuhl7v][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'kpc35jelbeucf4aebrmag4qv6pfqhvlb'
+    '_csrf-backend' => '7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"tf7THS2Px6Pye1WMWg07TWzqtMTntday\";}'
+    'advanced-frontend' => 'f3lsh9gft5st9tbbtka2js5ssqvuhl7v'
+    '_csrf-frontend' => '9ef303343f64e2bd99c1f07dad35db698f8e7d79c8e9d3bce0dcbd24016a29a9a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"csA2D59DpL9k8kpgyQOtdms53lLZjBjC\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 41
+    '__authKey' => 'Q0L1Y8TBaINB2raVNWgq5E6qdyPrulcN'
+    '__expire' => 1701065233
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_REDIRECT_HTTPS' => 'on'
+    'REDIRECT_REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_HTTPS' => 'on'
+    'REDIRECT_SSL_TLS_SNI' => 'education.uz'
+    'REDIRECT_SSL_SERVER_S_DN_CN' => 'localhost'
+    'REDIRECT_SSL_SERVER_I_DN_CN' => 'ospanel'
+    'REDIRECT_SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'REDIRECT_SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'REDIRECT_SSL_PROTOCOL' => 'TLSv1.3'
+    'REDIRECT_SSL_SECURE_RENEG' => 'false'
+    'REDIRECT_SSL_COMPRESS_METHOD' => 'NULL'
+    'REDIRECT_SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'REDIRECT_SSL_CIPHER_EXPORT' => 'false'
+    'REDIRECT_SSL_CIPHER_USEKEYSIZE' => '256'
+    'REDIRECT_SSL_CIPHER_ALGKEYSIZE' => '256'
+    'REDIRECT_SSL_CLIENT_VERIFY' => 'NONE'
+    'REDIRECT_SSL_SERVER_M_VERSION' => '1'
+    'REDIRECT_SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'REDIRECT_SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'REDIRECT_SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'REDIRECT_SSL_SERVER_S_DN' => 'CN=localhost'
+    'REDIRECT_SSL_SERVER_I_DN' => 'CN=ospanel'
+    'REDIRECT_SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'REDIRECT_SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'REDIRECT_SSL_SESSION_ID' => '319620a8c431ce4a8f9afd317903c5998332abde4e7481493e8298d742cfbd7b'
+    'REDIRECT_SSL_SESSION_RESUMED' => 'Initial'
+    'REDIRECT_STATUS' => '200'
+    'HTTPS' => 'on'
+    'SSL_TLS_SNI' => 'education.uz'
+    'SSL_SERVER_S_DN_CN' => 'localhost'
+    'SSL_SERVER_I_DN_CN' => 'ospanel'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.54'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/3.0.5'
+    'SSL_PROTOCOL' => 'TLSv1.3'
+    'SSL_SECURE_RENEG' => 'false'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_CIPHER' => 'TLS_AES_256_GCM_SHA384'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER_USEKEYSIZE' => '256'
+    'SSL_CIPHER_ALGKEYSIZE' => '256'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_SERVER_M_VERSION' => '1'
+    'SSL_SERVER_M_SERIAL' => 'AF90673611D8DD9B'
+    'SSL_SERVER_V_START' => 'Dec 23 10:54:34 2016 GMT'
+    'SSL_SERVER_V_END' => 'Dec 20 10:54:34 2031 GMT'
+    'SSL_SERVER_S_DN' => 'CN=localhost'
+    'SSL_SERVER_I_DN' => 'CN=ospanel'
+    'SSL_SERVER_A_KEY' => 'rsaEncryption'
+    'SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'SSL_SESSION_ID' => '319620a8c431ce4a8f9afd317903c5998332abde4e7481493e8298d742cfbd7b'
+    'SSL_SESSION_RESUMED' => 'Initial'
+    'HTTP_HOST' => 'education.uz'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"119\", \"Chromium\";v=\"119\", \"Not?A_Brand\";v=\"24\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_ACCEPT' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'no-cors'
+    'HTTP_SEC_FETCH_DEST' => 'image'
+    'HTTP_REFERER' => 'https://education.uz/shablon/rs-plugin/css/settings.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,uz;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=kpc35jelbeucf4aebrmag4qv6pfqhvlb; _csrf-backend=7cfb1c8e088afee7c86dc38090dcd4ae4926917c421121047196677f1a4a8361a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22tf7THS2Px6Pye1WMWg07TWzqtMTntday%22%3B%7D; advanced-frontend=f3lsh9gft5st9tbbtka2js5ssqvuhl7v; _csrf-frontend=9ef303343f64e2bd99c1f07dad35db698f8e7d79c8e9d3bce0dcbd24016a29a9a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22csA2D59DpL9k8kpgyQOtdms53lLZjBjC%22%3B%7D'
+    'PATH' => 'd:\\ospanel\\modules\\php\\PHP_8.1\\ext;d:\\ospanel\\modules\\php\\PHP_8.1\\pear;d:\\ospanel\\modules\\php\\PHP_8.1\\pear\\bin;d:\\ospanel\\modules\\php\\PHP_8.1;d:\\ospanel\\modules\\wget\\bin;d:\\ospanel\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1\\bin;d:\\ospanel\\modules\\http\\Apache_2.4-PHP_8.0-8.1;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'education.uz'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OSPanel/domains/education.uz'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OSPanel/domains/education.uz/frontend/web/index.php'
+    'REMOTE_PORT' => '55696'
+    'REDIRECT_URL' => '/index.php/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/shablon/rs-plugin/assets/loader.gif'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'redirect:\\frontend\\web\\'
+    'PHP_SELF' => '/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1701061633.4167
+    'REQUEST_TIME' => 1701061633
+]

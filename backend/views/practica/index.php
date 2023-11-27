@@ -44,7 +44,11 @@ $foto = Practica::find()->all();
                         ],
                     );
                 },
-            ],   
+            ],
+            [
+                    'attribute' => 'views_count',
+                    'label' => 'Ko\'rishlar soni'
+            ],
             //'title',
             //'file',
             'date',

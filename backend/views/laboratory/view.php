@@ -41,7 +41,11 @@ $this->params['breadcrumbs'][] = $this->title;
                         ],
                     );
                 },
-            ],   
+            ],
+            [
+                'attribute' => 'views_count',
+                'label' => 'Ko\'rishlar soni'
+            ],
             'date',
             'title',
             'file',

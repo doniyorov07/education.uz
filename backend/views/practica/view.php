@@ -42,7 +42,11 @@ $this->params['breadcrumbs'][] = $this->title;
                         ],
                     );
                 },
-            ],   
+            ],
+            [
+                'attribute' => 'views_count',
+                'label' => 'Ko\'rishlar soni'
+            ],
             'title',
             'file',
             'video_url',
